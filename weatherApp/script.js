@@ -62,7 +62,9 @@ async function getWeather() {
 
   const wind = data.wind.speed;
 
-  document.getElementById("cityName").innerText = data.name;
+
+
+  document.getElementById("cityName").innerText = "City : "+data.name;
 
   document.getElementById("temp").innerText = temp;
 
